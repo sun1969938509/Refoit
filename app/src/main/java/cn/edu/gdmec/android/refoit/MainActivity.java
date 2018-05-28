@@ -17,6 +17,10 @@ import android.widget.ImageView;
 
 import java.util.ArrayList;
 
+import cn.edu.gdmec.android.refoit.Movie.View.FgMovieFragment;
+import cn.edu.gdmec.android.refoit.News.View.FgNewsFragment;
+import cn.edu.gdmec.android.refoit.Video.FgVideoFragment;
+
 public class MainActivity extends AppCompatActivity implements View.OnClickListener,ViewPager.OnPageChangeListener {
      private View view_status;
      private ImageView iv_title_news;
@@ -121,6 +125,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                     }
                     break;
             }
+           
+
 
     }
 }
