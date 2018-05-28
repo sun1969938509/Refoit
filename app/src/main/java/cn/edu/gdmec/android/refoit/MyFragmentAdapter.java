@@ -26,6 +26,7 @@ public class MyFragmentAdapter extends FragmentPagerAdapter{
         this.fragments=fragments;
         this.fragmentTitles=fragmentTitles;
     }
+    
 
     @Override
     public Fragment getItem(int position) {
