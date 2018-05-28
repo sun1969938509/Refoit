@@ -5,6 +5,11 @@
     android:layout_height="match_parent"
     android:orientation="vertical">
 
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/ThemeOverlay.AppCompat.ActionBar">
+
     <android.support.design.widget.TabLayout
         android:id="@+id/tl_news"
         android:layout_width="match_parent"
@@ -13,6 +18,7 @@
         app:tabIndicatorColor="@color/colorWhite"
         app:tabSelectedTextColor="@color/colorWhite"
         app:tabTextColor="@color/colorTabTextNormal" />
+    </android.support.design.widget.AppBarLayout>
 
     <android.support.v4.view.ViewPager
         android:id="@+id/vp_news"
