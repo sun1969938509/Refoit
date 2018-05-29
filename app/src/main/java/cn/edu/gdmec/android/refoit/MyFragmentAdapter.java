@@ -19,8 +19,7 @@ public class MyFragmentAdapter extends FragmentPagerAdapter{
     public MyFragmentAdapter(FragmentManager fm, List<Fragment> fragments) {
         super(fm);
         this.fragments=fragments;
-    }//cedi
-
+    }
     public MyFragmentAdapter(FragmentManager fm,List<Fragment>fragments,List<String> fragmentTitles) {
         super(fm);
         this.fragments=fragments;
